@@ -80,13 +80,13 @@ fun ATSResumeCheckerScreen(viewModel: ResumeViewModel = koinViewModel() ) {
             .background(
                 Brush.verticalGradient(
                     colors = listOf(
-                        Color.White,           // ← status bar background
+                        Color.White,
                         Color(0xFF0F0C29),
                         Color(0xFF302B63),
                         Color(0xFF24243E)
                     ),
                     startY = 0f,
-                    endY = 300f // tweak this
+                    endY = 300f
                 )
             )
     ) {

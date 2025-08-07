@@ -37,7 +37,7 @@ fun WavyProgressBar(progress: Float, modifier: Modifier = Modifier) {
         val waveLength = size.width / 2f
         val path = Path()
 
-        val progressWidth = size.width * 0.7f // 70% progress
+        val progressWidth = size.width * 0.7f
         val offsetX = waveOffset * waveLength
 
         path.moveTo(-offsetX, size.height / 2)

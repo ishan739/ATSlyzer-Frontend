@@ -21,7 +21,6 @@ class MainActivity : ComponentActivity() {
         setContent {
             ATSlyzerTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    // ✅ No need to pass ViewModel manually, let Koin handle it
                     ATSResumeCheckerScreen()
                 }
             }
